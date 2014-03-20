@@ -1204,7 +1204,7 @@ int main (int argc, char *argv[])
 
   g_config.Clear();
   g_callbacks.Clear();
-  snprintf(g_config.strDeviceName, 13, "CECTester");
+  snprintf(g_config.strDeviceName, 13, "RaspberryPi");
   g_config.clientVersion       = CEC_CONFIG_VERSION;
   g_config.bActivateSource     = 0;
   g_callbacks.CBCecLogMessage  = &CecLogMessage;
